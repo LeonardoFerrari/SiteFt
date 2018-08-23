@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<!--
+Leonardo Ferrari Soares, 201164.
+[SI401B] Programação para a Web - Tópico 2 HTML (Parte 1)
+<b/>
+Crie um conjunto de documentos HTML que represente
+uma versão preliminar de um site para a disciplina SI401.
+Estes documentos devem usar o que foi visto até o momento no
+curso.
+Busque representar no site todos os principais aspectos da
+disciplina: ementa, objetivos, tópicos que serão tratados,
+referências, critérios de avaliação, etc.
+Inclua imagens, referências a materiais externos e o que mais
+achar necessário.
+Siga o formato HTML5 e valide todos os documentos gerados no
+site do W3C.
+-->
+
+<!-- inicio do site -->
+<html lang="pt">
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            p.letrinha{
+                font-family: "Times New Roman", Times, serif;
+            }
+            .center {
+                text-align: center;   
+            }
+            table, th, td {
+    border: 1px solid black;
+            }
+            .info{
+                background-image: linear-gradient(to bottom, rgba(255,255,255,0.74) 0%,rgba(255,255,255,0.74)100%),url("https://www.cdnsol.com/blog/wp-content/uploads/2017/11/Blockchain-Technology-Solutions.gif"); 
+                background-size:auto;
+            }
+            .info2{
+               background-image: linear-gradient(to bottom, rgba(255,255,255,0.74) 0%,rgba(255,255,255,0.74)80%),url("https://opendatawatch.com/wp-content/uploads/2015/12/data-graphic2.png");
+               background-size:1366px 800px;
+            }
+            </style>            
+        <title>FACULDADE DE TÉCNOLOGIA</title>
+    <body style="margin:0;">
+       <header style="background-color:#FF00FF;width:100%;">   
+           <h1>
+           <img src="https://www.ft.unicamp.br/sites/default/files/logotipo/logoFT.png" alt="logo_ft" width="98" height="98" />
+        SI401B - Programação para a Web (2s2018)
+           </h1>        
+        </header>
+        <br/>
+        <nav style="height:2567px;width:20%;float:left;" class="info">
+            <h2 style="margin:3%;"><a href="https://www.ft.unicamp.br/">Página inicial</a></h2>
+<br/><br/>
+<h2 style="margin:3%;"><a href="https://www.ft.unicamp.br/pt-br/sobre">Sobre</a></h2>
+    <br/><br/>
+    <h2 style="margin:3%;"><a href="https://www.ft.unicamp.br/pt-br/contato">Contato</a></h2>
+    <br/><br/>
+    </nav>
+  
+
+<section class="info2" style="height:100%;width:80%;float:right;">
+    <h2> Especificações </h2>
+        <span style="margin-left:4em"><b>Dia/Horário das aulas</b>: quinta-feira, 08:00 – 12:00 (4 aulas)</span>
+<br/> <br/>
+<span style="margin-left:4em"><b>Carga Horária</b>: 60 horas (SI401)</span>
+<br/><br/>
+<span style="margin-left:4em"><b>Local</b>: LP01</span>
+<br/> <br/> <br/>
+<b>Professores e Contato:</b>
+<div style="border:3px dotted #DC143C;text-align:center">
+Guilherme Palermo Coelho
+</div>
+<br/>
+<div class="center"><img src="https://www.ft.unicamp.br/~guilherme/foto/Gui.jpeg" width="100" height="100" alt="Guilherme"/></div>
+<div class="center">e-mail:(guilherme@ft.unicamp.br)</div>
+<div class="center"><a href = "https://www.ft.unicamp.br/webdidat/professor.php?nome=Guilherme%20Palermo%20Coelho" target="_blank"> Página ft </a></div>
+<br/>
+<div style="border:3px dotted #FF00FF;text-align:center">
+João Roberto Bertini Jr.
+</div>
+<br/>
+<div class="center"><img src="https://www.ft.unicamp.br/docentes/bertini/index_arquivos/image499.jpg" width="100" height="100" alt="Guilherme"/></div>
+<div class="center">e-mail:(bertini@ft.unicamp.br)</div>
+<div class="center"><a href ="https://www.ft.unicamp.br/pt-br/pessoas/docentes/bertini" target="_blank"> Página ft </a></div>
+<br/>
+<br/>
+Colocar <b>[SI401A]</b> no início do campo “Assunto” do e-mail.<br/>
+<b>Monitores PAD</b>: Lucca Di Bastiani do Amaral, (lucca_di@hotmail.com)<br/>
+João Vitor Pogiolli do Lago, (joaopogiolli@gmail.com) <br/>
+<br/><br/>
+    <div style="border:3px dashed #008000;text-align:left">
+        <p class="letrinha">Objetivo: Colocar em perspectiva a programação para Web. Capacitar o aluno a compreender as principais linguagens de marcação e estilo.</p>
+    </div>
+    <br/><br/>
+    <div style="border:3px groove #0000FF;text-align:left">
+        <p class="letrinha"> Metodologia de ensino: Aulas teóricas e práticas. Desenvolvimento de trabalhos em grupo e/ou individuais.</p>
+    </div>
+        <br/><br/>
+    <div style="border:3px inset #FF0000;text-align:left">
+    <p class="letrinha">Ementa: Elaboração de páginas web. Linguagens de marcação. Folhas de estilo. Javascript. Uso de linguagens de
+        programação para geração dinâmica de páginas web. Uso de servidores web para armazenamento de sites.</p>
+    </div>
+<br/><br/>
+<p><b> Bibliografia recomendada</b></p><br/>
+<br/>
+<span style="margin-left:2em">W3Schools Online Web Tutorials: <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a><br/></span><br/>
+<span style="margin-left:2em">Mozilla Developer Network: <a href="http://developer.mozilla.org/" target="_blank">http://developer.mozilla.org/</a><br/></span><br/>
+<span style="margin-left:2em">Silva, M. S. <i>“Construindo sites com CSS e (X)HTML Sites controlados por folhas de estilo em cascata”</i>. Novatec,
+2008.</span><br/>
+<br/>
+<span style="margin-left:2em">Silva, M. S. <i>“JavaScript: Guia do Programador”</i>. Novatec, 2010</span><br/>
+<br/>
+<span style="margin-left:2em">Niederauer, J. <i>“Desenvolvendo Websites com PHP”</i>, 2ª ed. Novatec, 2011.</span><br/>
+<br/>
+<span style="margin-left:2em">Dall’oglio, P. <i>“PHP: Programando com Orientação a Objetos”</i>, 2a ed. Novatec, 2009.</span><br/>
+<br/>
+<span style="margin-left:2em">Loudon, K. <i>“Desenvolvimento de Grandes Aplicações Web”</i>, O’Reilly/Novatec, 2010</span><br/>
+<br/>
+<span style="margin-left:2em">Gray, N. <i>“Web Server Programming”</i>, John Wiley & Sons, 2003.</span><br/>
+<br/>
+<br/>
+<p><b>Critério de avaliação:</b></p>
+<span style="margin-left:2em"><b>Seja</b>:</span>
+P – Nota da prova;
+T – Média das atividades práticas desenvolvidas ao longo do semestre;
+E – Nota do Exame;<br/>
+A média final do aluno será dada por: Media = 0,5 x P + 0,5 x T
+<br/>
+<br/>
+<span style="margin-left:2em"><b>Se</b> Media &lt; 2,5 ou Media >= 6,0: A Media final sera = Media</span>
+<br/>
+<b>Caso contrário</b>: Media final = 0,6 x Media + 0,4 x E 
+<br/>
+<br/>
+<b> Frequência</b>: o aluno deverá ter no mínimo 75% de presença.<br/>
+<br/>
+<b>Observações</b>:
+<ol>
+<li><b> Não serão corrigidas</b> atividades entregues após o prazo estabelecido;</li>
+<li> Caso sejam detectadas quaisquer formas de fraude nas provas e trabalhos, todos os alunos envolvidos 
+    ficarão com média 0,0 <b><u>na disciplina</u></b> e a infração será <b><u>reportada para a Coordenação de Curso.</u></b></li>
+</ol>
+<ul>
+<li>Segundo o Regimento Geral da UNICAMP (artigos 226 a 231), “recorrer a meios fraudulentos,
+com o propósito de lograr aprovação ou promoção” é considerado infração à disciplina e pode
+levar a penas que vão de advertência a expulsão.</li>
+<li> Regimento Geral da UNICAMP:
+<a href = "http://www.unicamp.br/unicamp/informacao/regimento-geral-da-unicamp" target="_blank"> http://www.unicamp.br/unicamp/informacao/regimento-geral-da-unicamp </a></li>
+</ul>
+<ol>
+<li><b>Só poderão fazer o Exame</b> alunos com Media >= 2,5 (vide Artigo 57 Inciso II do Regimento Geral de
+Graduação);</li>
+<li> O Regimento Geral da Graduação pode ser consultado em:
+    <a href = "https://www.dac.unicamp.br/portal/graduacao/regimento-geral" target="_blank"> https://www.dac.unicamp.br/portal/graduacao/regimento-geral </a></li>
+</ol>
+<div style="border:3px dashed #FFFF00;text-align:left">
+    <p><b><span style="margin-left:2em">TÓPICOS QUE SERÃO ABORDADOS NA DISCPLINA:</span></b></p>
+</div>
+<ul>
+<li>HTML</li>
+<li>HTML/CSS</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+    <div id="calendario" style="background-color:lightblue">
+    <nav class="center"><p>Calendário</p></nav>
+</div>
+<table>
+<tr>
+<th>Semana </th>
+<th>Data </th>
+<th> Tópico </th>
+<th> Professor </th>
+</tr>
+<tr>
+<td> 1 </td>
+<td> 02 de agosto </td>
+<td> introdução </td>
+<td> Guilherme </td> 
+</tr>
+<tr>
+<td> 2 </td>
+<td> 09 de agosto </td>
+<td> HTML </td>
+<td> Guilherme </td> 
+</tr>
+<tr>
+<td> 3 </td>
+<td> 16 de agosto </td>
+<td> HTML </td>
+<td> Guilherme </td> 
+</tr>
+<tr>
+<td> 4 </td>
+<td> 23 de agosto </td>
+<td> HTML/CSS </td>
+<td> Guilherme </td> 
+</tr>
+<tr>
+<td> 5 </td>
+<td> 30 de agosto </td>
+<td> CSS </td>
+<td> Guilherme </td> 
+</tr>
+<tr>
+<td> 6 </td>
+<td> 06 de setembro </td>
+<td> CSS </td>
+<td> Guilherme </td> 
+</tr>
+<tr>
+<td> 7 </td>
+<td> 13 de setembro </td>
+<td> JavaScript </td>
+<td> Bertini </td> 
+</tr>
+<tr>
+<td> 8 </td>
+<td> 20 de setembro </td>
+<td> JavaScript </td>
+<td> Bertini </td> 
+</tr>
+<tr>
+<td> 9 </td>
+<td> 27 de setembro </td>
+<td> SEMANA "TECNOLOGIA EM FOCO" </td>
+<td> - </td> 
+</tr>
+<tr>
+<td> 10 </td>
+<td> 04 de outubro </td>
+<td> JavaScript </td>
+<td> Bertini </td> 
+</tr>
+<tr>
+<td> 11 </td>
+<td> 11 de outubro </td>
+<td> PHP </td>
+<td> Bertini </td> 
+</tr>
+<tr>
+<td> 12 </td>
+<td> 18 de outubro </td>
+<td> PHP </td>
+<td> Bertini </td> 
+</tr>
+<tr>
+<td> 13 </td>
+<td> 25 de outubro </td>
+<td> PHP </td>
+<td> Bertini </td> 
+</tr>
+<tr>
+<td> 14 </td>
+<td> 01 de novembro </td>
+<td> PHP </td>
+<td> Bertini </td> 
+</tr>
+<tr>
+<td> 15 </td>
+<td> 08 de novembro </td>
+<td> Prova </td>
+<td> Guilherme </td> 
+</tr>
+<tr>
+<td> - </td>
+<td> 15 de novembro </td>
+<td> - </td>
+<td></td> 
+</tr>
+<tr>
+<td> - </td>
+<td> 22 de novembro </td>
+<td> - </td>
+<td></td> 
+</tr>
+<tr>
+<td> - </td>
+<td> 29 de novembro </td>
+<td> - </td>
+<td></td> 
+</tr>
+<tr>
+<td> - </td>
+<td> 06 de dezembro </td>
+<td> Semana de estudos </td>
+<td></td> 
+</tr>
+<tr>
+<td> - </td>
+<td> 13 de dezembro </td>
+<td> Exame final </td>
+<td></td> 
+</tr>
+</table>
+</section>
+    </body>
+</html>
+
+
