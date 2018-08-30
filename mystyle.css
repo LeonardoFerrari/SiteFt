@@ -13,3 +13,63 @@ h1 {text-align:center; }
 header {background-image: url("https://media.giphy.com/media/9WC8WTZsFxkRi/giphy.gif"); color:white;}
 section {color:black;}
 body {background-image: url("https://media.giphy.com/media/9WC8WTZsFxkRi/giphy.gif");}
+
+style 
+    .button{
+    font-size: 85%;
+ }
+            p.letrinha{
+                font-family: "Times New Roman", Times, serif;
+            }
+            .center {
+                text-align: center;   
+            }
+            table, th, td {
+                border: 1px solid black;
+                text-align: center;
+            }
+            .info{
+                background-image: linear-gradient(to bottom, rgba(255,255,255,0.74) 0%,rgba(255,255,255,0.74)100%),url("https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif"); 
+                background-size:auto;
+                color: black;
+                
+            }
+            .info2{
+               background-image: linear-gradient(to bottom, rgba(255,255,255,0.74) 0%,rgba(255,255,255,0.74)80%),url("https://opendatawatch.com/wp-content/uploads/2015/12/data-graphic2.png");
+               background-size:1366px 800px;
+            }
+            .button{
+                background-color: black;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
