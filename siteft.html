@@ -31,37 +31,78 @@ site do W3C.
                 text-align: center;   
             }
             table, th, td {
-    border: 1px solid black;
+                border: 1px solid black;
+                text-align: center;
             }
             .info{
-                background-image: linear-gradient(to bottom, rgba(255,255,255,0.74) 0%,rgba(255,255,255,0.74)100%),url("https://www.cdnsol.com/blog/wp-content/uploads/2017/11/Blockchain-Technology-Solutions.gif"); 
+                background-image: linear-gradient(to bottom, rgba(255,255,255,0.74) 0%,rgba(255,255,255,0.74)100%),url("https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif"); 
                 background-size:auto;
+                color: black;
+                
             }
             .info2{
                background-image: linear-gradient(to bottom, rgba(255,255,255,0.74) 0%,rgba(255,255,255,0.74)80%),url("https://opendatawatch.com/wp-content/uploads/2015/12/data-graphic2.png");
                background-size:1366px 800px;
             }
+            .button{
+                background-color: black;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
             </style>            
         <title>FACULDADE DE TÉCNOLOGIA</title>
     <body style="margin:0;">
        <header style="background-color:#FF00FF;width:100%;">   
            <h1>
-           <img src="https://www.ft.unicamp.br/sites/default/files/logotipo/logoFT.png" alt="logo_ft" width="98" height="98" />
+           <img src="https://www.ft.unicamp.br/sites/default/files/logotipo/logoFT.png" alt="logo_ft" width="98" height="98" id="inicio" />
         SI401B - Programação para a Web (2s2018)
            </h1>        
         </header>
         <br/>
-        <nav style="height:2567px;width:20%;float:left;" class="info">
-            <h2 style="margin:3%;"><a href="https://www.ft.unicamp.br/">Página inicial</a></h2>
-<br/><br/>
-<h2 style="margin:3%;"><a href="https://www.ft.unicamp.br/pt-br/sobre">Sobre</a></h2>
-    <br/><br/>
-    <h2 style="margin:3%;"><a href="https://www.ft.unicamp.br/pt-br/contato">Contato</a></h2>
-    <br/><br/>
-    </nav>
+        
+            <div class="pure-menu custom-restricted-width">
+        <ul class="pure-menu-list">
+        <li><a href="#" class="pure-menu-link">Página inicial</a></li>
+        <li><a href="#" class="pure-menu-link">Notícias</a></li>
+        <li><a href="#" class="pure-menu-link">Webmail</a></li>
+        <li><a href="#" class="pure-menu-link">Contato</a></li>
+        <li style="float:right" class="info"><a href="https://www.ft.unicamp.br/sobre" class="pure-menu-link"> SOBRE </a></li>
+    </ul>
+</div>
+  
   
 
-<section class="info2" style="height:100%;width:80%;float:right;">
+<section class="info2" style="height:100%;width:100%;float:right;">
     <h2> Especificações </h2>
         <span style="margin-left:4em"><b>Dia/Horário das aulas</b>: quinta-feira, 08:00 – 12:00 (4 aulas)</span>
 <br/> <br/>
@@ -142,15 +183,15 @@ A média final do aluno será dada por: Media = 0,5 x P + 0,5 x T
 <li><b> Não serão corrigidas</b> atividades entregues após o prazo estabelecido;</li>
 <li> Caso sejam detectadas quaisquer formas de fraude nas provas e trabalhos, todos os alunos envolvidos 
     ficarão com média 0,0 <b><u>na disciplina</u></b> e a infração será <b><u>reportada para a Coordenação de Curso.</u></b></li>
-</ol>
-<ul>
+
+
 <li>Segundo o Regimento Geral da UNICAMP (artigos 226 a 231), “recorrer a meios fraudulentos,
 com o propósito de lograr aprovação ou promoção” é considerado infração à disciplina e pode
 levar a penas que vão de advertência a expulsão.</li>
 <li> Regimento Geral da UNICAMP:
 <a href = "http://www.unicamp.br/unicamp/informacao/regimento-geral-da-unicamp" target="_blank"> http://www.unicamp.br/unicamp/informacao/regimento-geral-da-unicamp </a></li>
-</ul>
-<ol>
+
+
 <li><b>Só poderão fazer o Exame</b> alunos com Media >= 2,5 (vide Artigo 57 Inciso II do Regimento Geral de
 Graduação);</li>
 <li> O Regimento Geral da Graduação pode ser consultado em:
@@ -296,6 +337,8 @@ Graduação);</li>
 <td></td> 
 </tr>
 </table>
+<br/>
+<a class="button" href="#inicio"> Voltar para o ínicio da página </a>
 </section>
     </body>
 </html>
